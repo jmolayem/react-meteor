@@ -9,26 +9,10 @@ Recipes.allow({
 	}
 });
 
-Ingredient = new SimpleSchema({
-	name: {
-		type: String 
-	},
-	amount: {
-		type: String
-	}
-});
-
 RecipeSchema = new SimpleSchema({
-	name: {
-		type: String,
-		label: "Name"
-	},
-	desc: {
-		type: String,
-		label: "Description"
-	},
-	ingredients: {
-		type: [Ingredient]
+	roadlength: {
+		type: Number,
+		label: "RoadLength"
 	},
 	inMenu: {
 		type: Boolean,

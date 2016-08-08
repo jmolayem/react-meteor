@@ -10,3 +10,11 @@ Meteor.publish('SingleRecipe', function(id){
 Meteor.publish('points', function() {
   return Points.find();
 });
+
+Meteor.publish('pipelines', function(){
+	return Pipelines.find();
+});
+
+Meteor.publish('posts', function(){
+	return Posts.find();
+});

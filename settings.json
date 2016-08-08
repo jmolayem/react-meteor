@@ -8,5 +8,10 @@
 		"stripe": {
 			"apiPrivate": "apikey"
 			}
-		}
+		},
+  "galaxy.meteor.com": { 
+     "env": { 
+       "MONGO_URL": "mongodb://peppy:rodeo@ds023435.mlab.com:23435/waterdashdb" 
+     } 
+   }
 }

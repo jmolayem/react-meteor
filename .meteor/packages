@@ -26,8 +26,8 @@ fastclick@1.0.12
 raix:handlebar-helpers
 aldeed:collection2
 aldeed:autoform
-accounts-ui@1.1.9
-accounts-password@1.2.12
+accounts-ui
+accounts-password
 matb33:bootstrap-glyphicons
 zimme:active-route
 gwendall:auth-client-callbacks
@@ -38,3 +38,4 @@ pauloborges:mapbox
 check@1.2.3
 standard-minifier-css
 standard-minifier-js
+twbs:bootstrap
